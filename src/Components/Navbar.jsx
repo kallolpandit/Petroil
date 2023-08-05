@@ -8,28 +8,58 @@ export const Navbar = () => {
           <div>
             <img src="images/logo.png" alt="" />
           </div>
-          <div>
+          <div className="flex gap-16">
             <div>
-              <ul className="flex gap-12">
+              <ul className="flex gap-12 text-base text-white font-popins font-semibold">
                 <li>
-                  <a href="">Home</a>
+                  <a
+                    href=""
+                    className="hover:border-b hover:border-b-white transition-all"
+                  >
+                    Home
+                  </a>
                 </li>
                 <li>
-                  <a href="">About</a>
+                  <a
+                    href=""
+                    className="hover:border-b hover:border-b-white transition-all"
+                  >
+                    About
+                  </a>
                 </li>
                 <li>
-                  <a href="">Services</a>
+                  <a
+                    href=""
+                    className="hover:border-b hover:border-b-white transition-all"
+                  >
+                    Services
+                  </a>
                 </li>
                 <li>
-                  <a href="">Gallery</a>
+                  <a
+                    href=""
+                    className="hover:border-b hover:border-b-white transition-all"
+                  >
+                    Gallery
+                  </a>
                 </li>
                 <li>
-                  <a href="">Blog</a>
+                  <a
+                    href=""
+                    className="hover:border-b hover:border-b-white transition-all"
+                  >
+                    Blog
+                  </a>
                 </li>
               </ul>
             </div>
-            <div>
-              <a href="">CONTACT</a>
+            <div className="text-white text-base font-popins font-semibold">
+              <a
+                href=""
+                className=" border border-white py-3 px-8 hover:bg-white hover:text-brand transition-all"
+              >
+                CONTACT
+              </a>
             </div>
           </div>
         </div>
