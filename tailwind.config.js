@@ -11,6 +11,11 @@ export default {
     extend: {
       colors: {
         brand: "#F40404",
+        primary: "#000000",
+        secondary: "#6C6C6C",
+      },
+      backgroundImage: {
+        services1: "url('/images/services-bg-1.png')",
       },
     },
   },
