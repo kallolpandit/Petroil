@@ -18,7 +18,7 @@ export const Supplier = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-8 pt-24">
+      <div className="flex gap-8 justify-center pt-24">
         <div>
           <img src="images/supplier-1.png" alt="" />
         </div>

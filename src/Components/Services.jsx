@@ -27,6 +27,31 @@ export const Services = () => {
           </div>
         </div>
       </div>
+
+      <div className="flex justify-center">
+        <div className="bg-services2 bg-cover bg-no-repeat py-20 pl-10 w-full ">
+          <h3 className="text-white text-4xl font-popins font-bold pb-5 w-full lg:w[545px]">
+            Supply of national industries.
+          </h3>
+          <a
+            href=""
+            className="inline-block py-3 px-7 bg-brand text-white text-base font-popins font-semibold hover:text-primary transition-all"
+          >
+            Learn More
+          </a>
+        </div>
+        <div className="bg-services3 bg-cover bg-no-repeat py-20 pl-10 w-full ">
+          <h3 className="text-white text-4xl font-popins font-bold pb-5 w-full lg:w[698px]">
+            National fuel distribution and supply.
+          </h3>
+          <a
+            href=""
+            className="inline-block py-3 px-7 bg-brand text-white text-base font-popins font-semibold hover:text-primary transition-all"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
     </section>
   );
 };

@@ -16,6 +16,8 @@ export default {
       },
       backgroundImage: {
         services1: "url('/images/services-bg-1.png')",
+        services2: "url('/images/services-bg-2.png')",
+        services3: "url('/images/services-bg-3.png')",
       },
     },
   },
