@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 
 export const Banner = () => {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
     speed: 500,
