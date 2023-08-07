@@ -8,6 +8,7 @@ import { Supplier } from "./Components/Supplier";
 import { Logo } from "./Components/Logo";
 import { Blog } from "./Components/Blog";
 import { Map } from "./Components/Map";
+import { Footer } from "./Components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Logo />
       <Blog />
       <Map />
+      <Footer />
     </>
   );
 }
