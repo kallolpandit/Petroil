@@ -5,22 +5,38 @@ export const Banner = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+
     slidesToShow: 1,
     slidesToScroll: 1,
   };
 
   return (
-    <div>
-      <h2> Single Item</h2>
-      <Slider {...settings}>
-        <div>
-          <h3>hello</h3>
+    <section className="relative pb-20">
+      <div className="absolute top-0 left-0 w-full -z-10">
+        <Slider {...settings}>
+          <div>
+            <div className="w-full">
+              <div className="absolute top-0 left-0 w-full h-full bg-[#00000074]"></div>
+              <img src="images/banner-bg.png" alt="banner-bg" />
+            </div>
+          </div>
+        </Slider>
+      </div>
+      <div className="container">
+        <div className="z-10  py-40">
+          <h1 className="text-white text-6xl font-popins font-bold w-full lg:w-[842px] leading-normal">
+            We exist since 1975 on the oil and gas industry.
+          </h1>
+          <div className="pt-7">
+            <a
+              href=""
+              className="py-3 px-7 text-white text-base font-popins font-semibold bg-brand hover:text-brand hover:bg-white transition-all inline-block"
+            >
+              LEARN MORE
+            </a>
+          </div>
         </div>
-        <div>
-          <h3>2</h3>
-        </div>
-      </Slider>
-    </div>
+      </div>
+    </section>
   );
 };
