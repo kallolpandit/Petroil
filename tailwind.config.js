@@ -15,6 +15,7 @@ export default {
         secondary: "#6C6C6C",
       },
       backgroundImage: {
+        banner: "url('/images/banner-bg.png')",
         services1: "url('/images/services-bg-1.png')",
         services2: "url('/images/services-bg-2.png')",
         services3: "url('/images/services-bg-3.png')",

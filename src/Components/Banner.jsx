@@ -11,20 +11,11 @@ export const Banner = () => {
   };
 
   return (
-    <section className="relative pb-20">
-      <div className="absolute top-0 left-0 w-full -z-10">
-        <Slider {...settings}>
-          <div>
-            <div className="w-full">
-              <div className="absolute top-0 left-0 w-full h-full bg-[#00000074]"></div>
-              <img src="images/banner-bg.png" alt="banner-bg" />
-            </div>
-          </div>
-        </Slider>
-      </div>
+    <section className="bg-banner relative">
       <div className="container">
-        <div className="z-10  py-40">
-          <h1 className="text-white text-6xl font-popins font-bold w-full lg:w-[842px] leading-normal">
+        <div className="absolute top-0 left-0 bg-[#000000] w-full h-full -z-10"></div>
+        <div className=" py-40 z-20">
+          <h1 className="text-white text-6xl font-popins font-bold w-full lg:w-[842px] leading-normal ">
             We exist since 1975 on the oil and gas industry.
           </h1>
           <div className="pt-7">
