@@ -16,6 +16,10 @@ export default {
       },
       backgroundImage: {
         banner: "url('/images/banner-bg.png')",
+        banner1: "url('/images/banner-bg1.jpg')",
+        banner2: "url('/images/banner-bg2.jpg')",
+        banner3: "url('/images/banner-bg3.jpg')",
+        banner4: "url('/images/banner-bg4.jpg')",
         services1: "url('/images/services-bg-1.png')",
         services2: "url('/images/services-bg-2.png')",
         services3: "url('/images/services-bg-3.png')",

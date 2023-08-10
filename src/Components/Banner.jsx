@@ -40,10 +40,28 @@ export const Banner = () => {
   };
 
   return (
-    <section className="bg-banner">
+    <section className="relative">
       <div>
         <Slider {...settings}>
-          <div>
+          <div className="bg-banner bg-cover bg-no-repeat ">
+            <div className="container">
+              <div className="absolute top-0 left-0 bg-[#0000001d] w-full h-full -z-10"></div>
+              <div className=" py-40 pl-16 z-50">
+                <h1 className="text-white text-6xl font-popins font-bold w-full lg:w-[842px] leading-normal ">
+                  We exist since 1975 on the oil and gas industry.
+                </h1>
+                <div className="pt-7">
+                  <a
+                    href=""
+                    className="py-3 px-7 text-white text-base font-popins font-semibold bg-brand hover:text-brand hover:bg-white transition-all inline-block"
+                  >
+                    LEARN MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-banner1 bg-cover bg-no-repeat ">
             <div className="container">
               <div className="absolute top-0 left-0 bg-[#0000001d] w-full h-full -z-10"></div>
               <div className=" py-40 pl-16 z-20">
@@ -61,7 +79,7 @@ export const Banner = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="bg-banner2 bg-cover bg-no-repeat ">
             <div className="container">
               <div className="absolute top-0 left-0 bg-[#0000001d] w-full h-full -z-10"></div>
               <div className=" py-40 pl-16 z-20">
@@ -79,7 +97,7 @@ export const Banner = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="bg-banner3 bg-cover bg-no-repeat ">
             <div className="container">
               <div className="absolute top-0 left-0 bg-[#0000001d] w-full h-full -z-10"></div>
               <div className=" py-40 pl-16 z-20">
@@ -97,7 +115,7 @@ export const Banner = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="bg-banner4 bg-cover bg-no-repeat ">
             <div className="container">
               <div className="absolute top-0 left-0 bg-[#0000001d] w-full h-full -z-10"></div>
               <div className=" py-40 pl-16 z-20">
